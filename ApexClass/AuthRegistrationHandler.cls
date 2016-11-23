@@ -1,3 +1,4 @@
+
 public class {{ api_name }} implements Auth.RegistrationHandler {
     
     public User createUser(Id portalId, Auth.UserData data) {
@@ -8,6 +9,7 @@ public class {{ api_name }} implements Auth.RegistrationHandler {
 		
         return null;
     }
+    
     
     public void updateUser(Id userId, Id portalId, Auth.UserData data) {
         

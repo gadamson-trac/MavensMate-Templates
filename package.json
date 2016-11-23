@@ -323,37 +323,6 @@
                 }
             ]
         },
-        {  
-            "name":"Trigger Handler",
-            "file_name":"TriggerHandler.cls",
-            "description":"An Interface that handles Trigger actions",
-            "author":"MavensMate",
-            "params":[  
-                {  
-                    "name":"api_name",
-                    "description":"Apex Class API Name",
-                    "default":"MyApexClass"
-                }
-            ]
-        },
-        {
-            "name":"Trigger Handler - Comprehensive",
-            "file_name":"TriggerHandlerComprehensive.cls",
-            "description":"An class that handles all variations of trigger processing, including asynchronous processing",
-            "author":"Mike Leach @dlog",
-            "params":[
-                {
-                    "name":"api_name",
-                    "description":"Apex Class API Name",
-                    "default":"MyApexClass"
-                },
-                {
-                    "name":"object_name",
-                    "description":"Object API Name",
-                    "default":"Account"
-                }
-            ]
-        },
         {
             "name":"Unit Test",
             "file_name":"UnitTestApexClass.cls",
@@ -502,47 +471,6 @@
                     "default":"MyCoolTrigger"
                 },
                 {  
-                    "name":"object_name",
-                    "description":"Object API Name",
-                    "default":"Account"
-                }
-            ]
-        },
-        {  
-            "name":"Apex Trigger - Bulkified",
-            "file_name":"ApexTriggerBulk.trigger",
-            "description":"Bulk Apex Trigger with all Trigger events",
-            "author":"David Schach @dschach",
-            "params":[  
-                {  
-                    "name":"api_name",
-                    "description":"Apex Trigger API Name",
-                    "default":"MyCoolTrigger"
-                },
-                {
-                    "name":"object_name",
-                    "description":"Object API Name",
-                    "default":"Account"
-                }
-            ]
-        },
-        {
-            "name":"Apex Trigger - Comprehensive",
-            "file_name":"ApexTriggerComprehensive.trigger",
-            "description":"Bulk Apex Trigger with all Trigger events that also allows for asynchronous code",
-            "author":"Mike Leach @dlog",
-            "params":[
-                {
-                    "name":"api_name",
-                    "description":"Apex Trigger API Name",
-                    "default":"MyCoolTrigger"
-                },
-                {
-                    "name":"trigger_handler_name",
-                    "description":"Trigger Handler Class API Name",
-                    "default":"MyCoolTriggerHandler"
-                },
-                {
                     "name":"object_name",
                     "description":"Object API Name",
                     "default":"Account"
