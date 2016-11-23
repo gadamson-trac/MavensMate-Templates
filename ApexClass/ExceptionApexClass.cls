@@ -1,3 +1,4 @@
-public class {{ api_name }} extends Exception {
 
+public class {{ api_name }} extends Exception {
+    
 }
