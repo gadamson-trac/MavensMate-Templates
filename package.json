@@ -136,7 +136,25 @@
             "name":"DomainClass",
             "file_name":"DomainClass.cls",
             "description":"Apex Enterprise Patterns Domain Class",
-            "author":"Andy Fawcett @andyinthecloud",
+            "author":"Grant Adamson",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Domain class name (typically plural)",
+                    "default":"Invoices"
+                },
+                {  
+                    "name":"object_name",
+                    "description":"API name of the Standard or Custom Object",
+                    "default":"Invoice__c"
+                }
+            ]
+        },
+        {  
+            "name":"DomainClassNoCRUD",
+            "file_name":"DomainClassNoCRUD.cls",
+            "description":"Domain Class with CRUD Security Disabled",
+            "author":"Grant Adamson",
             "params":[  
                 {  
                     "name":"api_name",

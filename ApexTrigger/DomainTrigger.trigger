@@ -1,6 +1,5 @@
-trigger {{ api_name }} on {{ object_name }} (after delete, after insert, after update, 
-  before delete, before insert, before update) {
-   
-   // Creates Domain class instance and calls appropriate methods
+trigger {{ api_name }} on {{ object_name }} (before insert, before update, before delete, after insert, after update, after delete,
+        after undelete) {
+
    fflib_SObjectDomain.triggerHandler({{ api_name }}.class);
 }
