@@ -14,7 +14,7 @@ public class {{ api_name }} extends fflib_SObjectSelector {
 
 	
     public List<{{ object_name }}> selectById(Set<Id> ids) {
-		return (List<{{ object_name }}>) selectSObjectsById(ids);
+		return (List<{{ object_name }}>)selectSObjectsById(ids);
 	}
 
 
