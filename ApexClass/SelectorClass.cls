@@ -13,26 +13,10 @@ public class {{ api_name }} extends fflib_SObjectSelector {
 	}
 
 	
-    public List<{{ object_name }}> selectById(Set<ID> idSet) {
-		return (List<{{ object_name }}>) selectSObjectsById(idSet);
+    public List<{{ object_name }}> selectById(Set<Id> ids) {
+		return (List<{{ object_name }}>) selectSObjectsById(ids);
 	}
 
 
-	/*
-	 * For more examples see https://github.com/financialforcedev/fflib-apex-common-samplecode
-	 * 
-	public List<{{ object_name }}> selectBySomethingElse(List<String> somethings) {
-		assertIsAccessible();
-		return (List<{{ object_name }}>) Database.query(
-				String.format(
-				'select {0}, ' +
-				  'from {1} ' +
-				  'where Something__c in :somethings ' + 
-				  'order by {2}',
-				new List<String> {
-					getFieldListString(),
-					getSObjectName(),
-					getOrderBy() } ) );
-	}
-	 */
+	
 }
