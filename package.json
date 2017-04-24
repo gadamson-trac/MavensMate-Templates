@@ -392,6 +392,19 @@
                     "default":"MyApexClass"
                 }
             ]
+        },
+        {  
+            "name":"Apex Class Mock",
+            "file_name":"ApexMock.cls",
+            "description":"Apex mock class",
+            "author":"Grant Adamson",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                }
+            ]
         }
     ],
     "ApexComponent":[  
